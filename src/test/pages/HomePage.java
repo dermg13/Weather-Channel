@@ -32,4 +32,6 @@ public class HomePage extends BasePage {
     @FindBy(name= "youtube")
     public WebElement youtubeBtn;
 
+    @FindBy(xpath = "//span[text()='10 Day']")
+    public WebElement tenDay;
 }

@@ -48,4 +48,9 @@ public class HomeTest extends BaseTest {
         Assert.assertEquals(actualTitle, "The Weather Channel - YouTube");
         System.out.println(actualTitle);
     }
+
+    @Test(testName = "10-Day button")
+    public void test05() {
+    homePage.click(homePage.tenDay);
+    }
 }
