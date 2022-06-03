@@ -28,6 +28,7 @@ public class HomeTest extends BaseTest {
         String actualTitle = SeleniumUtils.switchToWindowAndVerifyTitle(getDriver(),extentManager);
 
         Assert.assertEquals(actualTitle, "The Weather Channel - Home | Facebook");
+        System.out.println(actualTitle);
     }
     @Test(testName = "Test social media buttons - Twitter")
     public void  test03() {
@@ -36,6 +37,7 @@ public class HomeTest extends BaseTest {
         String actualTitle = SeleniumUtils.switchToWindowAndVerifyTitle(getDriver(),extentManager);
 
         Assert.assertEquals(actualTitle, "Twitter");
+        System.out.println(actualTitle);
     }
     @Test(testName = "Test social media buttons - Youtube")
     public void  test04() {
@@ -44,5 +46,6 @@ public class HomeTest extends BaseTest {
         String actualTitle = SeleniumUtils.switchToWindowAndVerifyTitle(getDriver(),extentManager);
 
         Assert.assertEquals(actualTitle, "The Weather Channel - YouTube");
+        System.out.println(actualTitle);
     }
 }
