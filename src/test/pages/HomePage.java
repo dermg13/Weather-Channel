@@ -23,5 +23,13 @@ public class HomePage extends BasePage {
     @FindBy(name="close")
     public WebElement closePopUpBtn;
 
-    @FindBy()
+    @FindBy(name= "facebook")
+    public WebElement facebookBtn;
+
+    @FindBy(name= "twitter")
+    public WebElement twitterBtn;
+
+    @FindBy(name= "youtube")
+    public WebElement youtubeBtn;
+
 }

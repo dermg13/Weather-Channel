@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
     private WebDriver driver;
     protected ExtentManager extentManager;
-    private final String filePath = "src/test/data/config/configuration.properties";
+    private final String filePath = "src/test/config/configuration.properties";
 
     @BeforeSuite
     public void startReporter(){
